@@ -1,0 +1,5 @@
+puppet-module-websvn (1.0.1) unstable; urgency=low
+
+  * Initial debian release.
+
+ -- Damian Lukowski <damian.lukowski@credativ.de>  Thu, 12 Jun 2014 10:15:40 +0200
