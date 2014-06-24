@@ -1,2 +1,2 @@
-manifests   etc/puppet/modules/websvn
-files       etc/puppet/modules/websvn
+manifests   usr/share/puppet/modules.available/websvn
+files       usr/share/puppet/modules.available/websvn
