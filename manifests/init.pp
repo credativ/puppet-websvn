@@ -1,10 +1,5 @@
 class websvn {
 
-    # only configures websvn for apache2 at the moment
-    package { 'apache2':
-        ensure => present
-    }
-
     package { 'websvn':
         ensure => present
     }
@@ -20,10 +15,10 @@ class websvn {
 
     # FIXME: uses resources form apache puppet module?
     # must be done careful, though
-    file { '/etc/apache2/conf.d/websvn':
-        ensure  => link,
-        target  => '/etc/websvn/apache.conf',
-        require => [ Package['apache2'], Package['websvn'] ]
-    }
+    #file { '/etc/apache2/conf.d/websvn':
+    #    ensure  => link,
+    #    target  => '/etc/websvn/apache.conf',
+    #    require => [ Package['apache2'], Package['websvn'] ]
+    #}
 
 }
