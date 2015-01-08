@@ -1,3 +1,9 @@
+puppet-module-websvn (1.0.4) unstable; urgency=medium
+
+  * Do not mess with apache 
+
+ -- Patrick Schoenfeld <patrick.schoenfeld@credativ.de>  Thu, 08 Jan 2015 12:01:50 +0100
+
 puppet-module-websvn (1.0.3) unstable; urgency=medium
 
   * websvn doesn't use apache module at the moment, depend on apache2 package instead
